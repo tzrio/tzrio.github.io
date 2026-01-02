@@ -1,0 +1,137 @@
+body {
+    color: var(--text);
+}
+
+h3 {
+    color: #fff;
+    background-color: var(--primary);
+    border-color: #ffffff;
+    padding: 10px 12px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+#sampul-anime {
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    border: 1px solid rgba(0,0,0,0.08);
+}
+
+.tabel-unduh {
+    text-align: center;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+}
+
+.tabel-unduh td {
+    border-color: rgba(0,0,0,0.10);
+}
+
+.judul-tabel {
+    color: #fff;
+    background-color: var(--primary);
+    border-color: #ffffff;
+}
+
+/* Sinopsis di tengah biar enak dibaca */
+#isi-sinopsis td {
+    text-align: justify;
+    padding: 4px 0;
+}
+
+.judul-anime {
+	font-weight: 700;
+    color: var(--primary);
+	text-decoration: none;
+}
+
+
+.status-anime {
+	font-weight: 700;
+    color: var(--primary);
+	text-decoration: none;
+}
+
+.pengunggah-anime {
+	font-weight: 700;
+    color: var(--primary);
+	text-decoration: none;
+}
+
+.lencana-genre {
+    display: inline-block;
+    padding: 2px 6px;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: var(--primary);
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 999px;
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    text-decoration: none;
+}
+
+.lencana-genre:hover,
+.lencana-genre:focus {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+.tabel-unduh {
+	text-align: center;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+#isi-info td {
+    padding: 6px 4px;
+    border-bottom: 1px solid var(--border);
+}
+
+#isi-info tr:last-child td {
+    border-bottom: 0;
+}
+
+.tautan-unduh {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.tautan-unduh:hover,
+.tautan-unduh:focus {
+    text-decoration: underline;
+}
+
+.kartu {
+	position: relative;
+    border-radius: var(--radius);
+    background: #ffffff;
+    border-top: 3px solid #d2d6de;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: var(--shadow);
+}
+
+.kartu.kartu--utama {
+    border-top-color: var(--primary);
+}
+
+.judul-bagian {
+	text-align: center;
+}
+
+.judul-tabel {
+    color: #fff;
+    background-color: var(--primary);
+    border-color: #ffffff;
+}

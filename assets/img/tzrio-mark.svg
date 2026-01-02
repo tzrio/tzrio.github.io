@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="TzRIO">
+  <defs>
+    <radialGradient id="tz_glow" cx="50%" cy="50%" r="55%">
+      <stop offset="0" stop-color="#ff3a3a" stop-opacity="0.95" />
+      <stop offset="0.55" stop-color="#ff1f1f" stop-opacity="0.55" />
+      <stop offset="1" stop-color="#ff0000" stop-opacity="0" />
+    </radialGradient>
+    <filter id="tz_softGlow" x="-40%" y="-40%" width="180%" height="180%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feColorMatrix in="blur" type="matrix"
+        values="1 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0.9 0" result="redGlow" />
+      <feMerge>
+        <feMergeNode in="redGlow" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- dark base so the neon pops even on colored backgrounds -->
+  <circle cx="128" cy="128" r="118" fill="#0b0b0f" />
+
+  <!-- outer glow -->
+  <circle cx="128" cy="128" r="98" fill="url(#tz_glow)" />
+
+  <!-- neon ring -->
+  <circle cx="128" cy="128" r="90" fill="none" stroke="#ff1f1f" stroke-width="8" filter="url(#tz_softGlow)" />
+
+  <!-- monogram: T kiri, Z kanan (lebih clean & elegan) -->
+  <path
+    d="M74 92H120M97 92V176"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="12"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.95" />
+
+  <path
+    d="M136 92H182L136 176H182"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="12"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.95" />
+
+  <!-- aksen merah tipis biar ada feel neon -->
+  <path
+    d="M74 92H120M97 92V176M136 92H182L136 176H182"
+    fill="none"
+    stroke="#ff1f1f"
+    stroke-width="4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.55"
+    filter="url(#tz_softGlow)" />
+</svg>

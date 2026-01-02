@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aniwave | by TzRIO</title>
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+    <link rel="stylesheet" type="text/css" href="assets/css/global.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/hiasan.css" />
+  </head>
+  <body>
+    <main class="halaman">
+      <section class="header-utama" aria-label="Header anime">
+        <h1 class="header-kiri">
+          <a class="tautan-merek" href="index.html">Aniwave | by TzRIO <img class="ikon-merek" src="assets/img/tzrio-mark.svg" alt="" aria-hidden="true" /></a>
+        </h1>
+
+        <div class="logo-tengah" aria-hidden="true">
+          <span class="logo-tengah__badge">
+            <img class="logo-tengah__ikon" src="assets/img/aniwave-mark.svg" alt="" />
+            <img class="logo-tengah__ikon" src="assets/img/tzrio-mark.svg" alt="" />
+          </span>
+        </div>
+
+        <a class="tombol-auth" href="#login" aria-label="Login atau Signup">Login / Signup</a>
+      </section>
+
+      <h3 align="center" id="judul-anime">Anime</h3>
+      <p align="center" id="subjudul-anime"></p>
+
+      <p align="center">
+        <img id="sampul-anime" src="" alt="" />
+      </p>
+
+      <div align="center">
+        <table>
+          <tbody id="isi-sinopsis"></tbody>
+        </table>
+      </div>
+
+      <br /><br />
+
+      <div align="center" class="kartu kartu--utama">
+        <br /><br />
+
+        <div class="badan-kartu">
+          <table>
+            <tbody id="isi-info"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <br />
+
+      <div class="kartu kartu--utama">
+        <br />
+
+        <br />
+
+        <table
+          id="tabel-unduh"
+          align="center"
+          class="tabel-unduh"
+          border="1"
+          cellspacing="3"
+          cellpadding="10"
+        >
+          <tbody id="isi-unduh"></tbody>
+        </table>
+      </div>
+    </main>
+
+    <script src="data/anime-data.js"></script>
+    <script src="assets/js/utils.js"></script>
+    <script src="assets/js/anime.js"></script>
+  </body>
+</html>

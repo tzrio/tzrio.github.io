@@ -1,0 +1,25 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# Build artifacts (if any)
+dist/
+build/
+
+# Local server / temp
+.env
+.env.local

@@ -1,113 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-	<title>BERANDA</title>
-	<link rel="stylesheet" type="text/css" href="beranda.css">
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Aniwave | by TzRIO</title>
+	<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+	<link rel="stylesheet" type="text/css" href="assets/css/global.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/beranda.css">
 </head>
 <body>
-	<div class="rseries">
-		<div class="rvad">
-			<h1>
-				<span>Update Terbaru</span>
+	<main class="beranda halaman">
+		<section class="header-utama" aria-label="Beranda">
+			<h1 class="header-kiri">
+				<a class="tautan-merek" href="index.html">Aniwave | by TzRIO <img class="ikon-merek" src="assets/img/tzrio-mark.svg" alt="" aria-hidden="true"></a>
 			</h1>
 
-			<div class="iconf">
-				<i class="fa fa-rss"></i>
+			<div class="logo-tengah" aria-hidden="true">
+				<span class="logo-tengah__badge">
+					<img class="logo-tengah__ikon" src="assets/img/aniwave-mark.svg" alt="">
+					<img class="logo-tengah__ikon" src="assets/img/tzrio-mark.svg" alt="">
+				</span>
 			</div>
-		</div>
 
-	<div class="rapi">
-		<div class="venz">
-			<ul>
-				<div class="kover">
-					<div class="detpost">
-						<div class="thumb"> 
-							<a href="AOT.html" title="Attack on Titan: The Final Season Subtitle Indonesia">
-								<div class="thumbz"> 
-									<img width="150" height="84" src="AOT1.jpg" class="attachment-thumb size-thumb wp-post-image" alt="" loading="lazy" title="Attack on Titan: The Final Season Subtitle Indonesia" srcset="AOT1.jpg" sizes="(max-width: 150px) 100vw, 150px">
-								</div> 
-							</a>
-						</div>
-						<div class="content">
-							<h2 class="episodeye">
-								<a href="AOT.html" title="Attack on Titan: The Final Season Subtitle Indonesia">Attack on Titan: The Final Season Subtitle Indonesia</a>
-							</h2>
-                                                        <p>
-								<i class="fa fa-user"></i>Posted by Admin
-							</p>
-							<p><i class="fa fa-clock-o"></i> Released on Monday
-							</p>
-							<p><i class="fa fa-tag"></i> Genre 
-								<a class="genre" href="" rel="tag">Action</a>
-								<a class="genre" href="" rel="tag">Drama</a> 
-								<a class="genre" href="" rel="tag">Fantasy</a> 
-								<a class="genre" href="" rel="tag">Military</a> 
-								<a class="genre" href="" rel="tag">Mystery</a> 
-								<a class="genre" href="" rel="tag">Shounen</a> 
-								<a class="genre" href="" rel="tag">Super Power</a>
-							</p>
-						</div>
+			<a class="tombol-auth" href="#login" aria-label="Login atau Signup">Login / Signup</a>
+		</section>
+
+		<section class="konten-beranda" aria-label="Daftar anime">
+			<div class="daftar-anime">
+				<div class="panel-filter" aria-label="Pencarian dan filter">
+					<div class="filter-kiri" aria-label="Filter">
+						<label class="label-filter sr-only" for="filter-genre">Genre</label>
+						<select id="filter-genre" class="select-filter" aria-label="Filter genre">
+							<option value="">Genre: Semua</option>
+						</select>
+
+						<label class="label-filter sr-only" for="filter-tipe">Tipe</label>
+						<select id="filter-tipe" class="select-filter" aria-label="Filter tipe">
+							<option value="">Tipe: Semua</option>
+							<option value="serial">Serial</option>
+							<option value="film">Film</option>
+						</select>
+
+						<label class="label-filter sr-only" for="filter-status">Status</label>
+						<select id="filter-status" class="select-filter" aria-label="Filter status">
+							<option value="">Status: Semua</option>
+						</select>
+
+						<button id="reset-filter" class="tombol-reset" type="button">Reset</button>
+					</div>
+
+					<div class="filter-kanan" aria-label="Pencarian">
+						<label class="label-filter sr-only" for="cari-anime">Cari</label>
+						<input id="cari-anime" class="input-filter" type="search" placeholder="Cari judul..." autocomplete="off" />
 					</div>
 				</div>
 
-				<div class="kover">
-					<div class="detpost">
-						<div class="thumb"> 
-							<a href="TPN.html" title="The Promised Neverland: Season 2 Subtitle Indonesia">
-								<div class="thumbz"> 
-									<img width="150" height="99" src="TPN1.jpg" class="attachment-thumb size-thumb wp-post-image" alt="" loading="lazy" title="The Promised Neverland: Season 2 Subtitle Indonesia" srcset="TPN1.jpg" sizes="(max-width: 150px) 100vw, 150px">
-								</div> 
-							</a>
-						</div>
-						<div class="content">
-							<h2 class="episodeye">
-								<a href="TPN.html" title="The Promised Neverland: Season 2 Subtitle Indonesia">The Promised Neverland: Season 2 Subtitle Indonesia</a>
-							</h2>
-							<p>
-								<i class="fa fa-user"></i> Posted by Admin
-							</p>
-							<p><i class="fa fa-clock-o"></i> Released on Soon
-							</p>
-							<p><i class="fa fa-tag"></i> Genre 
-								<a class="genre" href="" rel="tag">Horor</a>
-								<a class="genre" href="" rel="tag">Mystery</a> 
-								<a class="genre" href="" rel="tag">Sci-Fi</a> 
-								<a class="genre" href="" rel="tag">Shounen</a>
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="kover">
-					<div class="detpost">
-						<div class="thumb"> 
-							<a href="DRS.html" title="Dr. Stone: Stone Wars Subtitle Indonesia">
-								<div class="thumbz"> 
-									<img width="150" height="103" src="DRS1.jpg" class="attachment-thumb size-thumb wp-post-image" alt="" loading="lazy" title="Dr. Stone: Stone Wars Subtitle Indonesia" srcset="DRS1.jpg" sizes="(max-width: 150px) 100vw, 150px">
-								</div> 
-							</a>
-						</div>
-						<div class="content">
-							<h2 class="episodeye">
-								<a href="DRS.html" title="Dr. Stone: Stone Wars Subtitle Indonesia">Dr. Stone: Stone Wars Subtitle Indonesia</a>
-							</h2>
-							<p><i class="fa fa-user"></i> Posted by Admin
-							</p>
-							<p><i class="fa fa-clock-o"></i> Released on Soon
-							</p>
-							<p><i class="fa fa-tag"></i> Genre 
-								<a class="genre" href="" rel="tag">Adventure</a> 
-								<a class="genre" href="" rel="tag">Sci-Fi</a>  
-								<a class="genre" href="" rel="tag">Shounen</a>
-							</p>
-						</div>
-					</div>
-				</div>
-			</ul>
-		</div>
-		<div class="clear"></div>
-	</div>
-</div>
+				<ul id="daftar-anime" class="daftar-anime-list" aria-label="Daftar judul anime"></ul>
+			</div>
+			<div class="pembersih"></div>
+		</section>
+	</main>
+
+	<script src="data/anime-data.js"></script>
+	<script src="assets/js/utils.js"></script>
+	<script src="assets/js/beranda.js"></script>
 
 </body>
 </html>

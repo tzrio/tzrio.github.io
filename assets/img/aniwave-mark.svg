@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="AniWave">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff2a2a"/>
+      <stop offset="1" stop-color="#b30000"/>
+    </linearGradient>
+  </defs>
+  <rect x="24" y="24" width="208" height="208" rx="52" fill="url(#g)"/>
+  <path d="M36 152c22-30 52-30 74 0s52 30 74 0 52-30 74 0" fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round" opacity="0.22"/>
+  <path d="M36 120c22-30 52-30 74 0s52 30 74 0 52-30 74 0" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity="0.18"/>
+  <path d="M80 160L112 96l32 64 12-24 20 40" fill="none" stroke="#fff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="80" cy="160" r="8" fill="#fff"/>
+  <circle cx="112" cy="96" r="8" fill="#fff"/>
+  <circle cx="144" cy="160" r="8" fill="#fff"/>
+  <circle cx="156" cy="136" r="8" fill="#fff"/>
+  <circle cx="176" cy="176" r="8" fill="#fff"/>
+</svg>

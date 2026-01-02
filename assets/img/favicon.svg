@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="AniWave">
+  <rect x="24" y="24" width="208" height="208" rx="52" fill="#d10000"/>
+  <path d="M80 160L112 96l32 64 12-24 20 40" fill="none" stroke="#fff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

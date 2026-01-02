@@ -1,0 +1,626 @@
+// Data anime cadangan buat mode file:// (jadi nggak butuh server).
+// Sumber: data/anime.json
+window.__DATA_ANIME__ = {
+  "aot-s4": {
+    "title": "Attack On Titan: The Final Season",
+    "cover": "assets/img/aot-s4.jpg",
+    "mal": {
+      "id": 40028,
+      "url": "https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season",
+      "fetchRating": true,
+      "fetchSynopsis": true
+    },
+    "sinopsis": [
+      "Setelah meraih kemenangan dari para titan,",
+      "kebenaran di luar dinding dan identitas dari para titan akhirnya terungkap.",
+      "Sampai menyentuh titik tersebut, umat manusia telah memberikan pengorbanan yang sangat besar.",
+      "Namun, mereka harus terus maju. Waktu telah berlalu dan ancaman dari Marley terus membayangi.",
+      "Seperti apakah kelanjutan dari perjuangan Eren dan teman-temannya?"
+    ],
+    "info": {
+      "Judul": { "type": "link", "text": "Attack on Titan: The Final Season", "href": "#", "class": "judul-anime" },
+      "Rating": { "type": "mal", "id": 40028, "url": "https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season" },
+      "Status": { "type": "status", "value": "ongoing", "text": "Sedang berlangsung", "class": "status-anime" },
+      "Tipe": "Serial",
+      "Studio": "MAPPA",
+      "Tahun": "2020",
+      "Musim": "Musim Dingin",
+      "Total Ep": "16",
+      "Hari Tayang": "Minggu",
+      "Genre": [
+        "Aksi",
+        "Drama",
+        "Fantasi",
+        "Militer",
+        "Misteri",
+        "Shounen",
+        "Kekuatan Super"
+      ]
+    },
+    "downloads": [
+      {
+        "episode": "Episode 1",
+        "rows": [
+          {
+            "label": "360p",
+            "links": [
+              { "text": "Zippyshare", "href": "https://www76.zippyshare.com/v/TLwnwbeV/file.html" },
+              { "text": "Mediafire", "href": "http://www.mediafire.com/file/nmkdshpaqvmn1u3/360p_AOT_S4_01_tzrio.mp4/file" }
+            ]
+          },
+          {
+            "label": "720p",
+            "links": [
+              { "text": "Zippyshare", "href": "https://www76.zippyshare.com/v/hHznzxke/file.html" },
+              { "text": "Mediafire", "href": "http://www.mediafire.com/file/q1xwy9lio4bxd5f/720p_AOT_S4_01_tzrio.mp4/file" }
+            ]
+          }
+        ]
+      },
+      {
+        "episode": "Episode 2",
+        "rows": [
+          {
+            "label": "360p",
+            "links": [
+              { "text": "Zippyshare", "href": "https://www101.zippyshare.com/v/a5zxcJCO/file.html" },
+              { "text": "Mediafire", "href": "https://www.mediafire.com/file/c6bb3fh0bbqnjj5/360p_SNK_S4_02_tzrio.mp4/file" }
+            ]
+          },
+          {
+            "label": "720p",
+            "links": [
+              { "text": "Zippyshare", "href": "https://www101.zippyshare.com/v/0QeODdGp/file.html" },
+              { "text": "Mediafire", "href": "https://www.mediafire.com/file/gzqof3z6f815rb4/720p_SNK_S4_02_tzrio.mp4/file" }
+            ]
+          }
+        ]
+      },
+      {
+        "episode": "Episode 3",
+        "rows": [
+          {
+            "label": "360p",
+            "links": [
+              { "text": "Zippyshare", "href": "https://www47.zippyshare.com/v/fUfj6ggb/file.html" },
+              { "text": "Mediafire", "href": "https://www.mediafire.com/file/fsi5o3on411kq2y/360p_SNK_S4_03_tzrio.mp4/file" }
+            ]
+          },
+          {
+            "label": "720p",
+            "links": [
+              { "text": "Zippyshare", "href": "https://www47.zippyshare.com/v/tSHTXv4w/file.html" },
+              { "text": "Mediafire", "href": "https://www.mediafire.com/file/75ga8tf081mdl6a/720p_SNK_S4_03_tzrio.mp4/file" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "aot-s1": {
+    "title": "Attack on Titan (Season 1)",
+    "cover": "assets/img/aot-s1.jpg",
+    "mal": {
+      "id": 16498,
+      "url": "https://myanimelist.net/anime/16498/Shingeki_no_Kyojin",
+      "fetchRating": true,
+      "fetchSynopsis": true
+    },
+    "sinopsis": [
+      "Dunia manusia hidup di balik tembok raksasa buat ngelindungin diri dari Titan.",
+      "Semuanya berubah saat Titan Kolosal ngebobol tembok dan bikin kota jadi neraka.",
+      "Eren, Mikasa, dan Armin ikut militer buat balas dendam dan nyari jawaban.",
+      "Tapi makin lama, mereka sadar: musuhnya nggak sesimpel ‘Titan itu jahat’."
+    ],
+    "info": {
+      "Judul": { "type": "link", "text": "Attack on Titan", "href": "#", "class": "judul-anime" },
+      "Rating": { "type": "mal", "id": 16498, "url": "https://myanimelist.net/anime/16498/Shingeki_no_Kyojin" },
+      "Status": { "type": "status", "value": "finished", "text": "Tamat", "class": "status-anime" },
+      "Tipe": "Serial",
+      "Studio": "Wit Studio",
+      "Tahun": "2013",
+      "Musim": "Musim Semi",
+      "Total Ep": "25",
+      "Hari Tayang": "—",
+      "Genre": [
+        "Aksi",
+        "Drama",
+        "Fantasi",
+        "Militer",
+        "Misteri",
+        "Shounen",
+        "Kekuatan Super"
+      ]
+    },
+    "downloads": []
+  },
+  "aot-s2": {
+    "title": "Attack on Titan (Season 2)",
+    "cover": "assets/img/aot-s2.jpg",
+    "mal": {
+      "id": 25777,
+      "url": "https://myanimelist.net/anime/25777/Shingeki_no_Kyojin_Season_2",
+      "fetchRating": true,
+      "fetchSynopsis": true
+    },
+    "sinopsis": [
+      "Setelah pertarungan besar, rahasia tentang Titan mulai kebuka sedikit demi sedikit.",
+      "Tembok yang dianggap aman ternyata nyimpen sesuatu yang bikin merinding.",
+      "Eren dan kawan-kawan terjebak di konflik baru: siapa kawan, siapa lawan.",
+      "Dan yang paling gila: ada Titan yang nyaru jadi manusia."
+    ],
+    "info": {
+      "Judul": { "type": "link", "text": "Attack on Titan Season 2", "href": "#", "class": "judul-anime" },
+      "Rating": { "type": "mal", "id": 25777, "url": "https://myanimelist.net/anime/25777/Shingeki_no_Kyojin_Season_2" },
+      "Status": { "type": "status", "value": "finished", "text": "Tamat", "class": "status-anime" },
+      "Tipe": "Serial",
+      "Studio": "Wit Studio",
+      "Tahun": "2017",
+      "Musim": "Musim Semi",
+      "Total Ep": "12",
+      "Hari Tayang": "—",
+      "Genre": [
+        "Aksi",
+        "Drama",
+        "Fantasi",
+        "Militer",
+        "Misteri",
+        "Shounen",
+        "Kekuatan Super"
+      ]
+    },
+    "downloads": []
+  },
+  "aot-s3": {
+    "title": "Attack on Titan (Season 3)",
+    "cover": "assets/img/aot-s3.jpg",
+    "mal": {
+      "id": 35760,
+      "url": "https://myanimelist.net/anime/35760/Shingeki_no_Kyojin_Season_3",
+      "fetchRating": true,
+      "fetchSynopsis": true
+    },
+    "sinopsis": [
+      "Musuh kali ini bukan cuma Titan, tapi juga manusia yang main politik.",
+      "Survey Corps jadi buronan, dan mereka harus milih: tunduk atau lawan.",
+      "Di saat yang sama, masa lalu Eren perlahan kebuka dan bikin semuanya berubah.",
+      "Ini season yang banyak plot twist, dan tegangnya beda level."
+    ],
+    "info": {
+      "Judul": { "type": "link", "text": "Attack on Titan Season 3", "href": "#", "class": "judul-anime" },
+      "Rating": { "type": "mal", "id": 35760, "url": "https://myanimelist.net/anime/35760/Shingeki_no_Kyojin_Season_3" },
+      "Status": { "type": "status", "value": "finished", "text": "Tamat", "class": "status-anime" },
+      "Tipe": "Serial",
+      "Studio": "Wit Studio",
+      "Tahun": "2018",
+      "Musim": "Musim Panas",
+      "Total Ep": "12",
+      "Hari Tayang": "—",
+      "Genre": [
+        "Aksi",
+        "Drama",
+        "Fantasi",
+        "Militer",
+        "Misteri",
+        "Shounen",
+        "Kekuatan Super"
+      ]
+    },
+    "downloads": []
+  },
+  "aot-s3p2": {
+    "title": "Attack on Titan (Season 3 Part 2)",
+    "cover": "assets/img/aot-s3p2.jpg",
+    "mal": {
+      "id": 38524,
+      "url": "https://myanimelist.net/anime/38524/Shingeki_no_Kyojin_Season_3_Part_2",
+      "fetchRating": true,
+      "fetchSynopsis": true
+    },
+    "sinopsis": [
+      "Pertarungan buat ngerebut balik Wall Maria jadi misi paling nekat yang pernah ada.",
+      "Di sini strategi, pengorbanan, dan keputusan pahit kejadian beruntun.",
+      "Rahasia di ruang bawah tanah akhirnya kebuka.",
+      "Dan setelah itu… dunia mereka nggak bakal sama lagi."
+    ],
+    "info": {
+      "Judul": { "type": "link", "text": "Attack on Titan Season 3 Part 2", "href": "#", "class": "judul-anime" },
+      "Rating": { "type": "mal", "id": 38524, "url": "https://myanimelist.net/anime/38524/Shingeki_no_Kyojin_Season_3_Part_2" },
+      "Status": { "type": "status", "value": "finished", "text": "Tamat", "class": "status-anime" },
+      "Tipe": "Serial",
+      "Studio": "Wit Studio",
+      "Tahun": "2019",
+      "Musim": "Musim Semi",
+      "Total Ep": "10",
+      "Hari Tayang": "—",
+      "Genre": [
+        "Aksi",
+        "Drama",
+        "Fantasi",
+        "Militer",
+        "Misteri",
+        "Shounen",
+        "Kekuatan Super"
+      ]
+    },
+    "downloads": []
+  },
+  "aot-movie-1": {
+    "title": "Attack on Titan Movie 1: Crimson Bow and Arrow",
+    "cover": "assets/img/aot-movie-1.jpg",
+    "mal": {
+      "id": 23775,
+      "url": "https://myanimelist.net/anime/23775/Shingeki_no_Kyojin_Movie_1__Guren_no_Yumiya",
+      "fetchRating": true,
+      "fetchSynopsis": true
+    },
+    "sinopsis": [
+      "Film rekap yang ngerangkum kisah awal Attack on Titan.",
+      "Mulai dari tembok yang jebol, sampai Eren gabung militer dan ketemu horor perang.",
+      "Kalau butuh versi singkat sebelum lanjut season berikutnya, ini bisa jadi pemanasan.",
+      "Tetep tegang, tapi alurnya lebih padat."
+    ],
+    "info": {
+      "Judul": { "type": "link", "text": "Crimson Bow and Arrow", "href": "#", "class": "judul-anime" },
+      "Rating": { "type": "mal", "id": 23775, "url": "https://myanimelist.net/anime/23775/Shingeki_no_Kyojin_Movie_1__Guren_no_Yumiya" },
+      "Status": { "type": "status", "value": "finished", "text": "Tamat", "class": "status-anime" },
+      "Tipe": "Film",
+      "Studio": "Wit Studio",
+      "Tahun": "2014",
+      "Musim": "Musim Gugur",
+      "Total Ep": "1",
+      "Hari Tayang": "—",
+      "Genre": [
+        "Aksi",
+        "Drama",
+        "Fantasi",
+        "Militer",
+        "Misteri",
+        "Shounen",
+        "Kekuatan Super"
+      ]
+    },
+    "downloads": []
+  },
+  "aot-movie-2": {
+    "title": "Attack on Titan Movie 2: Wings of Freedom",
+    "cover": "assets/img/aot-movie-2.jpg",
+    "mal": {
+      "id": 23777,
+      "url": "https://myanimelist.net/anime/23777/Shingeki_no_Kyojin_Movie_2__Jiyuu_no_Tsubasa",
+      "fetchRating": true,
+      "fetchSynopsis": true
+    },
+    "sinopsis": [
+      "Film rekap lanjutan yang ngerangkum bagian setelah awal perjuangan mereka.",
+      "Fokusnya ke misi-misi besar Survey Corps dan pertarungan yang makin brutal.",
+      "Cocok buat yang pengen refresh sebelum lanjut ke arc yang lebih berat.",
+      "Singkat, padat, dan tetap bikin deg-degan."
+    ],
+    "info": {
+      "Judul": { "type": "link", "text": "Wings of Freedom", "href": "#", "class": "judul-anime" },
+      "Rating": { "type": "mal", "id": 23777, "url": "https://myanimelist.net/anime/23777/Shingeki_no_Kyojin_Movie_2__Jiyuu_no_Tsubasa" },
+      "Status": { "type": "status", "value": "finished", "text": "Tamat", "class": "status-anime" },
+      "Tipe": "Film",
+      "Studio": "Wit Studio",
+      "Tahun": "2015",
+      "Musim": "Musim Panas",
+      "Total Ep": "1",
+      "Hari Tayang": "—",
+      "Genre": [
+        "Aksi",
+        "Drama",
+        "Fantasi",
+        "Militer",
+        "Misteri",
+        "Shounen",
+        "Kekuatan Super"
+      ]
+    },
+    "downloads": []
+  },
+  "tpn-s1": {
+    "title": "The Promised Neverland (Season 1)",
+    "cover": "assets/img/tpn-s1.jpg",
+    "mal": {
+      "id": 37779,
+      "url": "https://myanimelist.net/anime/37779/Yakusoku_no_Neverland",
+      "fetchRating": true,
+      "fetchSynopsis": true
+    },
+    "sinopsis": [
+      "Emma, Norman, dan Ray hidup bahagia di panti asuhan Grace Field House.",
+      "Semuanya keliatan hangat dan damai, sampai mereka nemuin rahasia yang bikin dunia runtuh.",
+      "Mereka harus mikir cepat, nyusun rencana, dan kabur tanpa ketahuan ‘Mama’.",
+      "Ini bukan sekadar kabur—ini perang otak buat nyelametin semua anak."
+    ],
+    "info": {
+      "Judul": { "type": "link", "text": "The Promised Neverland", "href": "#", "class": "judul-anime" },
+      "Rating": { "type": "mal", "id": 37779, "url": "https://myanimelist.net/anime/37779/Yakusoku_no_Neverland" },
+      "Status": { "type": "status", "value": "finished", "text": "Tamat", "class": "status-anime" },
+      "Tipe": "Serial",
+      "Studio": "CloverWorks",
+      "Tahun": "2019",
+      "Musim": "Musim Dingin",
+      "Total Ep": "12",
+      "Hari Tayang": "—",
+      "Genre": ["Horor", "Misteri", "Sci-Fi", "Shounen"]
+    },
+    "downloads": []
+  },
+  "tpn-s2": {
+    "title": "The Promised Neverland: Season 2",
+    "cover": "assets/img/tpn-s2.jpg",
+    "mal": {
+      "id": 39617,
+      "url": "https://myanimelist.net/anime/39617/Yakusoku_no_Neverland_2nd_Season",
+      "fetchRating": true,
+      "fetchSynopsis": true
+    },
+    "sinopsis": [
+      "Emma, Ray, dan anak-anak lainnya akhirnya hidup bebas di luar panti asuhan.",
+      "Tapi dunia luar ternyata jauh lebih berbahaya dari yang mereka bayangin.",
+      "Di tengah ancaman para iblis dan rahasia yang pelan-pelan kebuka, mereka harus nentuin jalan terbaik buat bertahan hidup.",
+      "Petunjuk dari William Minerva jadi kunci, tapi tiap pilihan punya risikonya sendiri.",
+      "Bisakah mereka nyelametin semua orang dan nemuin tempat yang bener-bener aman?"
+    ],
+    "info": {
+      "Judul": { "type": "link", "text": "The Promised Neverland: Season 2", "href": "#", "class": "judul-anime" },
+      "Rating": { "type": "mal", "id": 39617, "url": "https://myanimelist.net/anime/39617/Yakusoku_no_Neverland_2nd_Season" },
+      "Status": { "type": "status", "value": "soon", "text": "Segera", "class": "status-anime" },
+      "Tipe": "Serial",
+      "Studio": "CloverWorks",
+      "Tahun": "2021",
+      "Musim": "Musim Dingin",
+      "Total Ep": "11",
+      "Hari Tayang": "Kamis",
+      "Genre": ["Horor", "Misteri", "Sci-Fi", "Shounen"]
+    },
+    "downloads": [
+      {
+        "episode": "Episode 1",
+        "rows": [
+          { "label": "360p", "links": [{ "text": "X", "href": "" }, { "text": "X", "href": "" }] },
+          { "label": "720p", "links": [{ "text": "X", "href": "" }, { "text": "X", "href": "" }] }
+        ]
+      }
+    ]
+  },
+  "drs-s1": {
+    "title": "Dr. Stone (Season 1)",
+    "cover": "assets/img/drs-s1.jpg",
+    "mal": {
+      "id": 38691,
+      "url": "https://myanimelist.net/anime/38691/Dr_Stone",
+      "fetchRating": true,
+      "fetchSynopsis": true
+    },
+    "sinopsis": [
+      "Setelah fenomena misterius bikin semua manusia membatu, ribuan tahun pun berlalu.",
+      "Senku bangun di dunia yang balik jadi alam liar, tapi dia nggak nyerah.",
+      "Pakai sains, dia mulai ngebangun ulang peradaban dari nol.",
+      "Masalahnya: nggak semua orang setuju kalau sains harus jadi masa depan."
+    ],
+    "info": {
+      "Judul": { "type": "link", "text": "Dr. Stone", "href": "#", "class": "judul-anime" },
+      "Rating": { "type": "mal", "id": 38691, "url": "https://myanimelist.net/anime/38691/Dr_Stone" },
+      "Status": { "type": "status", "value": "finished", "text": "Tamat", "class": "status-anime" },
+      "Tipe": "Serial",
+      "Studio": "TMS Entertainment",
+      "Tahun": "2019",
+      "Musim": "Musim Panas",
+      "Total Ep": "24",
+      "Hari Tayang": "—",
+      "Genre": ["Petualangan", "Komedi", "Sci-Fi", "Shounen"]
+    },
+    "downloads": []
+  },
+  "drs-s2": {
+    "title": "Dr. Stone: Stone Wars",
+    "cover": "assets/img/drs-s2.jpg",
+    "mal": {
+      "id": 40852,
+      "url": "https://myanimelist.net/anime/40852/Dr_Stone__Stone_Wars",
+      "fetchRating": true,
+      "fetchSynopsis": true
+    },
+    "sinopsis": [
+      "Senku dan Kerajaan Sains lanjut ngebut bikin penemuan demi menangin perang batu.",
+      "Di sisi lain, Tsukasa juga makin kuat dengan pasukannya sendiri.",
+      "Buat ngebalikin peradaban, mereka harus siap perang strategi, bukan cuma otot.",
+      "Stone Wars jadi momen penentuan: siapa yang bakal nentuin arah dunia baru?"
+    ],
+    "info": {
+      "Judul": { "type": "link", "text": "Dr. Stone: Stone Wars", "href": "#", "class": "judul-anime" },
+      "Rating": { "type": "mal", "id": 40852, "url": "https://myanimelist.net/anime/40852/Dr_Stone__Stone_Wars" },
+      "Status": { "type": "status", "value": "finished", "text": "Tamat", "class": "status-anime" },
+      "Tipe": "Serial",
+      "Studio": "TMS Entertainment",
+      "Tahun": "2021",
+      "Musim": "Musim Dingin",
+      "Total Ep": "11",
+      "Hari Tayang": "Kamis",
+      "Genre": ["Petualangan", "Komedi", "Sci-Fi", "Shounen"]
+    },
+    "downloads": []
+  },
+  "drs-s3": {
+    "title": "Dr. Stone: New World",
+    "cover": "assets/img/drs-s3.jpg",
+    "mal": {
+      "id": 48549,
+      "url": "https://myanimelist.net/anime/48549/Dr_Stone__New_World",
+      "fetchRating": true,
+      "fetchSynopsis": true
+    },
+    "sinopsis": [
+      "Kerajaan Sains masuk ke fase baru: bikin kapal dan mulai jelajahi dunia.",
+      "Tujuannya jelas: nyari sumber fenomena pembatuan dan nyelametin manusia.",
+      "Tapi makin jauh melangkah, makin banyak ancaman yang nggak ketebak.",
+      "New World = petualangan + sains yang makin gila."
+    ],
+    "info": {
+      "Judul": { "type": "link", "text": "Dr. Stone: New World", "href": "#", "class": "judul-anime" },
+      "Rating": { "type": "mal", "id": 48549, "url": "https://myanimelist.net/anime/48549/Dr_Stone__New_World" },
+      "Status": { "type": "status", "value": "finished", "text": "Tamat", "class": "status-anime" },
+      "Tipe": "Serial",
+      "Studio": "TMS Entertainment",
+      "Tahun": "2023",
+      "Musim": "Musim Semi",
+      "Total Ep": "11",
+      "Hari Tayang": "—",
+      "Genre": ["Petualangan", "Komedi", "Sci-Fi", "Shounen"]
+    },
+    "downloads": []
+  },
+  "drs-s3p2": {
+    "title": "Dr. Stone: New World Part 2",
+    "cover": "assets/img/drs-s3p2.jpg",
+    "mal": {
+      "id": 55644,
+      "url": "https://myanimelist.net/anime/55644/Dr_Stone__New_World_Part_2",
+      "fetchRating": true,
+      "fetchSynopsis": true
+    },
+    "sinopsis": [
+      "Kelanjutan New World, saat konflik makin tajam dan taruhannya makin besar.",
+      "Senku tetap ngelawan dengan sains, strategi, dan teamwork.",
+      "Di part ini, keputusan kecil bisa ngubah arah seluruh misi.",
+      "Siap-siap: makin seru, makin intens."
+    ],
+    "info": {
+      "Judul": { "type": "link", "text": "Dr. Stone: New World Part 2", "href": "#", "class": "judul-anime" },
+      "Rating": { "type": "mal", "id": 55644, "url": "https://myanimelist.net/anime/55644/Dr_Stone__New_World_Part_2" },
+      "Status": { "type": "status", "value": "finished", "text": "Tamat", "class": "status-anime" },
+      "Tipe": "Serial",
+      "Studio": "TMS Entertainment",
+      "Tahun": "2023",
+      "Musim": "Musim Gugur",
+      "Total Ep": "11",
+      "Hari Tayang": "—",
+      "Genre": ["Petualangan", "Komedi", "Sci-Fi", "Shounen"]
+    },
+    "downloads": []
+  },
+  "drs-s4": {
+    "title": "Dr. Stone: Science Future",
+    "cover": "assets/img/drs-s4.jpg",
+    "mal": {
+      "id": 57592,
+      "url": "https://myanimelist.net/anime/57592/Dr_Stone__Science_Future",
+      "fetchRating": true,
+      "fetchSynopsis": true
+    },
+    "sinopsis": [
+      "Bab baru Dr. Stone yang siap ngebawa petualangan sains ke level berikutnya.",
+      "Targetnya makin besar, musuhnya makin nggak kebayang.",
+      "Yang jelas: Senku tetap gaspol bangun masa depan dengan sains.",
+      "Ini masih siap tayang, jadi stay tuned."
+    ],
+    "info": {
+      "Judul": { "type": "link", "text": "Dr. Stone: Science Future", "href": "#", "class": "judul-anime" },
+      "Rating": { "type": "mal", "id": 57592, "url": "https://myanimelist.net/anime/57592/Dr_Stone__Science_Future" },
+      "Status": { "type": "status", "value": "soon", "text": "Segera", "class": "status-anime" },
+      "Tipe": "Serial",
+      "Studio": "TMS Entertainment",
+      "Tahun": "X",
+      "Musim": "X",
+      "Total Ep": "X",
+      "Hari Tayang": "—",
+      "Genre": ["Petualangan", "Komedi", "Sci-Fi", "Shounen"]
+    },
+    "downloads": []
+  },
+  "drs-s4p2": {
+    "title": "Dr. Stone: Science Future Part 2",
+    "cover": "assets/img/drs-s4p2.jpg",
+    "mal": {
+      "id": 61322,
+      "url": "https://myanimelist.net/anime/61322/Dr_Stone__Science_Future_Part_2",
+      "fetchRating": true,
+      "fetchSynopsis": true
+    },
+    "sinopsis": [
+      "Lanjutan Science Future. Plot dan eksperimennya bakal makin ngebut.",
+      "Masih menunggu jadwal tayang resmi.",
+      "Sementara ini, anggap ini bagian lanjutan yang bakal nyambung langsung.",
+      "Pokoknya: siap-siap lanjut gas."
+    ],
+    "info": {
+      "Judul": { "type": "link", "text": "Dr. Stone: Science Future Part 2", "href": "#", "class": "judul-anime" },
+      "Rating": { "type": "mal", "id": 61322, "url": "https://myanimelist.net/anime/61322/Dr_Stone__Science_Future_Part_2" },
+      "Status": { "type": "status", "value": "soon", "text": "Segera", "class": "status-anime" },
+      "Tipe": "Serial",
+      "Studio": "TMS Entertainment",
+      "Tahun": "X",
+      "Musim": "X",
+      "Total Ep": "X",
+      "Hari Tayang": "—",
+      "Genre": ["Petualangan", "Komedi", "Sci-Fi", "Shounen"]
+    },
+    "downloads": []
+  },
+  "drs-s4p3": {
+    "title": "Dr. Stone: Science Future Part 3",
+    "cover": "assets/img/drs-s4p3.jpg",
+    "mal": {
+      "id": 62568,
+      "url": "https://myanimelist.net/anime/62568/Dr_Stone__Science_Future_Part_3",
+      "fetchRating": true,
+      "fetchSynopsis": true
+    },
+    "sinopsis": [
+      "Bagian lanjutan dari Science Future yang bakal nutup/lanjutin arc besarnya.",
+      "Masih nunggu info tayang.",
+      "Tetep fokus: sains, petualangan, dan konflik yang makin besar.",
+      "Nanti kalau udah rilis, kita bisa update tahun/musimnya."
+    ],
+    "info": {
+      "Judul": { "type": "link", "text": "Dr. Stone: Science Future Part 3", "href": "#", "class": "judul-anime" },
+      "Rating": { "type": "mal", "id": 62568, "url": "https://myanimelist.net/anime/62568/Dr_Stone__Science_Future_Part_3" },
+      "Status": { "type": "status", "value": "soon", "text": "Segera", "class": "status-anime" },
+      "Tipe": "Serial",
+      "Studio": "TMS Entertainment",
+      "Tahun": "X",
+      "Musim": "X",
+      "Total Ep": "X",
+      "Hari Tayang": "—",
+      "Genre": ["Petualangan", "Komedi", "Sci-Fi", "Shounen"]
+    },
+    "downloads": []
+  },
+  "your-name": {
+    "title": "Your Name.",
+    "cover": "assets/img/your-name.jpg",
+    "mal": {
+      "id": 32281,
+      "url": "https://myanimelist.net/anime/32281/Kimi_no_Na_wa",
+      "fetchRating": true,
+      "fetchSynopsis": true
+    },
+    "sinopsis": [
+      "Mitsuha dan Taki adalah dua remaja yang hidupnya beda banget: satu di desa kecil, satu di kota besar.",
+      "Tapi suatu hari mereka tiba-tiba sering ‘ketuker’ badan pas bangun tidur.",
+      "Awalnya chaos dan lucu-lucuan, sampai mereka sadar ada misteri besar yang nyangkut di kejadian itu.",
+      "Mereka berusaha nyambungin petunjuk, ngejar waktu, dan nyari satu sama lain.",
+      "Ini cerita romantis + fantasi yang bikin campur aduk: ketawa, deg-degan, dan haru."
+    ],
+    "info": {
+      "Judul": { "type": "link", "text": "Your Name.", "href": "#", "class": "judul-anime" },
+      "Rating": { "type": "mal", "id": 32281, "url": "https://myanimelist.net/anime/32281/Kimi_no_Na_wa" },
+      "Status": { "type": "status", "value": "finished", "text": "Tamat", "class": "status-anime" },
+      "Tipe": "Film",
+      "Studio": "CoMix Wave Films",
+      "Tahun": "2016",
+      "Musim": "Musim Panas",
+      "Total Ep": "1",
+      "Durasi": "106 menit",
+      "Hari Tayang": "—",
+      "Genre": ["Drama", "Romantis", "Fantasi"]
+    },
+    "downloads": []
+  }
+};
+
+// Alias kompatibilitas (kalau ada kode lama yang masih pakai nama ini)
+window.__ANIME_DATA__ = window.__DATA_ANIME__;
